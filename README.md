@@ -2,6 +2,13 @@
 Type `npm i`, then `npm i mongodb nodemon mongoose`
 # Setup mongodb database
 Go to mongodb.com, sign in account, then create new project and setup connection.
+
+Setup environment:
+```env
+PORT=3000
+NODE_ENV=
+MONGO_URI=
+```
 ## Connect to Mongodb database
 ```js
 const mongoose = require("mongoose");
